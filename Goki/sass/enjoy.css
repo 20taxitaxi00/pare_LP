@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  height: 125px;
+  padding: 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: gold;
+  color: white;
+}
+
+.header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 80px;
+}
+
+.header-left h1 {
+  font-size: 30px;
+}
+
+.header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 80px;
+}
+
+.header-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 80px;
+}
+
+.header-right ul li {
+  margin-right: 20px;
+}
+
+.header-right ul li:last-child {
+  margin-right: 0;
+}
+
+.tab-content {
+  width: 100%;
+  height: 500px;
+}
+
+.tab-content .tab1 {
+  background-color: red;
+}
+
+.tab-content .tab2 {
+  background-color: blue;
+}
+
+.tab-content .tab3 {
+  background-color: green;
+}
+
+.tab-content .tab4 {
+  background-color: purple;
+}
+/*# sourceMappingURL=enjoy.css.map */

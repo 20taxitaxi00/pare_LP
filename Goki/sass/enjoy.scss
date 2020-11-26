@@ -1,0 +1,73 @@
+// header
+.header {
+    width: 100%;
+    height: 125px;
+    padding: 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: gold;
+    color: white;
+
+    &-left {
+        display: flex;
+        align-items: center;
+        margin-left: 80px;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    &-right {
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            margin-right: 80px;
+
+            li {
+                margin-right: 20px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+// header
+
+
+// main
+.tab-content {
+    width: 100%;
+    height: 500px;
+
+    .tab1 {
+        background-color: red;
+    }
+
+    .tab2 {
+        background-color: blue;
+    }
+
+    .tab3 {
+        background-color: green;
+    }
+
+    .tab4 {
+        background-color: purple;
+    }
+}
+// main
+
+
+// contact
+// contact
+
+
+// footer
+// footer
