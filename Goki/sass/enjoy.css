@@ -59,19 +59,31 @@
   height: 500px;
 }
 
-.tab-content .tab1 {
+.tab-content #tab1 {
   background-color: red;
+  height: 500px;
 }
 
-.tab-content .tab2 {
+.tab-content #tab2 {
   background-color: blue;
+  height: 500px;
 }
 
-.tab-content .tab3 {
+.tab-content #tab3 {
   background-color: green;
+  height: 500px;
 }
 
-.tab-content .tab4 {
+.tab-content #tab4 {
   background-color: purple;
+  height: 500px;
+}
+
+.tab-content div {
+  display: none;
+}
+
+.tab-content .active {
+  display: block;
 }
 /*# sourceMappingURL=enjoy.css.map */
