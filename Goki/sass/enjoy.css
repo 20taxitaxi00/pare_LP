@@ -9,7 +9,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: gold;
-  color: white;
 }
 
 .header-left {
@@ -95,5 +94,49 @@
 
 .tab-content .active {
   display: block;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: gold;
+}
+
+.footer img {
+  margin-top: 30px;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.footer ul li {
+  margin-right: 60px;
+}
+
+.footer ul li:last-child {
+  margin-right: 0;
+}
+
+.footer div {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=enjoy.css.map */
