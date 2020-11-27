@@ -91,6 +91,60 @@
 
 
 // contact
+.contact {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 350px;
+    background-color: #FFCC33;
+
+    h2 {
+        font-size: 36px;
+    }
+    
+    .form {
+        margin: 50px 0 40px;
+        display: flex;
+        justify-content: center;
+
+        &-left {
+            margin-right: 50px;
+        }
+
+        .name {
+            margin-bottom: 20px;
+
+        }
+
+        .name, .email {
+            height: 50px;
+            width: 400px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .inquiry {
+            height: 120px;
+            width: 400px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+    }
+
+    button {
+        background-color: gold;
+        color: #000;
+        border: 3px solid #000;
+        border-radius: 10px;
+        font-size: 24px;
+        padding: 15px 30px;
+        box-sizing: border-box;
+        transition-duration: 500ms;
+    }
+}
+
+
 // contact
 
 
