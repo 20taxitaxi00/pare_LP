@@ -1,0 +1,37 @@
+.tab3-wrap {
+    width: 100%;
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .interior {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+
+        img {
+            width: 400px;
+            height: 300px;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin: 200px;
+        }
+    }
+
+    hr {
+        height:0px;
+        border-radius: 2px;
+        border: 2px solid hsl(0, 0%, 60%);
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+}

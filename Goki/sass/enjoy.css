@@ -67,18 +67,16 @@
 
 .tab-content {
   width: 100%;
-  height: 1200px;
+  height: 60%;
   margin-top: 130px;
 }
 
 .tab-content #tab2 {
-  background-color: blue;
-  height: 500px;
+  background-color: #FFCC33;
 }
 
 .tab-content #tab3 {
-  background-color: green;
-  height: 500px;
+  background-color: #FFCC33;
 }
 
 .tab-content #tab4 {
@@ -188,6 +186,48 @@
 .tab1-menu .menu-box li:last-child {
   margin-right: 0;
   border-right: none;
+}
+
+.tab3-wrap {
+  width: 100%;
+}
+
+.tab3-wrap h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.tab3-wrap .interior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.tab3-wrap .interior img {
+  width: 400px;
+  height: 300px;
+}
+
+.tab3-wrap .interior h3 {
+  font-size: 24px;
+  margin: 200px;
+}
+
+.tab3-wrap hr {
+  height: 0px;
+  border-radius: 2px;
+  border: 2px solid #999999;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 100px;
 }
 
 .tab4-wrap {
