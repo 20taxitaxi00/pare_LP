@@ -10,7 +10,7 @@
           justify-content: space-between;
   background-color: gold;
   position: fixed;
-  margin-top: -100px;
+  margin-top: -135px;
 }
 
 .header-left {
@@ -68,7 +68,7 @@
 .tab-content {
   width: 100%;
   height: 1300px;
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .tab-content #tab2 {
@@ -82,8 +82,7 @@
 }
 
 .tab-content #tab4 {
-  background-color: purple;
-  height: 500px;
+  background-color: #FFCC33;
 }
 
 .tab-content section {
@@ -189,6 +188,62 @@
 .tab1-menu .menu-box li:last-child {
   margin-right: 0;
   border-right: none;
+}
+
+.tab4-wrap {
+  padding-left: 30px;
+}
+
+.tab4-wrap h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+
+hr {
+  height: 0px;
+  border-radius: 2px;
+  border: 2px solid #999999;
+  width: 80%;
+}
+
+.map {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.map iframe {
+  padding-left: 200px;
+}
+
+.speed {
+  margin-top: 60px;
+}
+
+.speed h3 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.speed p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.normal {
+  margin-top: 60px;
+}
+
+.normal h3 {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.normal p {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .contact {
