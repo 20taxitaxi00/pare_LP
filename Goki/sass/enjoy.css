@@ -259,8 +259,9 @@ hr {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 350px;
+  height: 400px;
   background-color: #FFCC33;
+  padding-top: 50px;
 }
 
 .contact h2 {
