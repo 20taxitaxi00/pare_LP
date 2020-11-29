@@ -59,7 +59,7 @@
 // main
 .tab-content {
     width: 100%;
-    height: 800px;
+    height: 1300px;
     margin-top: 100px;
 
     // #tab1 {
@@ -93,17 +93,13 @@
 // HOMEここから
 .tab1-wrap {
     display: flex;
+    flex-direction: column;
 }
 
-.side {
-    height: 800px;
-    width: 15%;
-    background-color: #b38867;
-}
 
 .tab1-container {
     height: 800px;
-    width: 70%;
+    width: 100%;
     background-image: url(../img/phonto.PNG);
     text-align: center;
     align-items: center;
@@ -141,6 +137,36 @@
         }
     }
 }
+
+.tab1-menu {
+    width: 100%;
+    height: 500px;
+    background-color: #FFCC33;
+
+    .menu-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 190px;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-right: 150px;
+
+            span {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 20px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+                border-right: none;
+            }
+        }
+    }
+}
 // HOMEここまで
 
 // main
@@ -156,7 +182,7 @@
     background-color: #FFCC33;
 
     h2 {
-        font-size: 36px;
+        font-size: 40px;
     }
     
     .form {
