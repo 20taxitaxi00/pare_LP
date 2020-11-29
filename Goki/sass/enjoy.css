@@ -67,7 +67,7 @@
 
 .tab-content {
   width: 100%;
-  height: 1300px;
+  height: 1200px;
   margin-top: 130px;
 }
 
@@ -192,13 +192,14 @@
 
 .tab4-wrap {
   padding-left: 30px;
+  height: 100%;
 }
 
 .tab4-wrap h2 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 hr {
@@ -211,7 +212,7 @@ hr {
 .map {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .map iframe {
