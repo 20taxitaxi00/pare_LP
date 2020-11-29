@@ -6,21 +6,21 @@
 // _main.scssファイルを読み込む
 @import "main";
 
-
 // HOMEここから
 // _home.scssファイルを読み込む
 @import "home";
 
 // MENUここから
-// MENUここまで
+// _menu.scssファイルを読み込む
+@import "menu";
 
 // INTERIORここから
-// INTERIORここまで
+// _interior.scssファイルを読み込む
+@import "interior";
 
 // ACCESSここから
 // _access.scssファイルを読み込む
 @import "access";
-// main
 
 // contact
 // _contact.scssファイルを読み込む
@@ -29,3 +29,11 @@
 // footer
 // _footer.scssファイルを読み込む
 @import "footer";
+
+// hamburger
+// _hamburger.scssファイルを読み込む
+@import "hamburger";
+
+// responsive
+// _responsive.scssファイルを読み込む
+@import "responsive";
