@@ -1,0 +1,59 @@
+// hamburger menu
+
+$top:9px;
+$deg:45deg;
+
+// @mixin 引用するための名前　(引数)　{まとめたいスタイル}
+@mixin hamburger_border(){
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+@mixin border_rotate($deg_number, $trans_x, $trans_y){
+    transform: rotate($deg_number) translate($trans_x, $trans_y);
+}
+
+.hamburger {
+    display: none;
+    width: 28px;
+    align-items: center;
+    margin-right: 20px;
+
+   span {
+       position: relative;
+       display: block;
+       
+       &:after {
+           top: $top;
+       }
+
+       &:after, &:before {
+           content: "";
+           position: absolute;
+           left: 0;
+           top: -$top;
+       }
+    //    mixinを引用したいときは@include 引用名 (引数)
+       &, &:after, &:before {
+          @include hamburger_border;
+       }
+   }
+
+   .on {
+       span {
+           background-color: transparent;
+
+           &:before {
+                @include border_rotate($deg, 5px, 5px )
+           }
+
+           &:after {
+                @include border_rotate(-$deg, 7px, -8px )
+           }
+       }
+   }
+}
