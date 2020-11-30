@@ -559,6 +559,54 @@ hr {
     font-size: 16px;
     margin-top: 20px;
   }
+  .swiper-wrapper img {
+    width: 500px;
+    height: 350px;
+  }
+  .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .menu li {
+    margin-right: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .tab3-wrap .interior {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    margin-left: 0;
+  }
+  .tab3-wrap .interior img {
+    width: 350px;
+  }
+  .tab3-wrap .interior h3 {
+    margin: 50px;
+  }
+  .tab3-wrap hr {
+    margin-left: 25px;
+  }
+  .tab4-wrap {
+    padding-left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .tab4-wrap hr {
+    margin-left: 25px;
+  }
+  .map iframe {
+    padding-left: 0;
+    width: 350px;
+    height: 300px;
+  }
   .contact .form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

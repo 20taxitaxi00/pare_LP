@@ -44,6 +44,57 @@
         margin-top: 20px;
     }
 
+    // menu
+    .swiper-wrapper img {
+        width: 500px;
+        height: 350px;
+    }
+
+    .menu ul {
+        flex-flow: column nowrap;
+    }
+
+    .menu li {
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    // interior
+    .tab3-wrap .interior {
+        flex-flow: column nowrap;
+        margin-left: 0;
+    }
+
+    .tab3-wrap .interior img {
+        width: 350px;
+    }
+
+    .tab3-wrap .interior h3 {
+        margin: 50px;
+    }
+
+    .tab3-wrap  hr {
+        margin-left: 25px;
+    }
+
+    // access 
+    .tab4-wrap {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tab4-wrap hr {
+        margin-left: 25px;
+    }
+
+    .map iframe {
+        padding-left: 0;
+        width: 350px;
+        height: 300px;
+    }
+
     // contact
     .contact .form {
 		flex-flow: column nowrap;
