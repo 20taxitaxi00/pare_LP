@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="sass/enjoy.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 </head>
 <body>
-    <div class="container">
+    <div class="cont">
         <!-- headerここから -->
         <header class="header">
             <!-- 左側 -->
@@ -64,7 +65,99 @@
 
             <!-- MENUここから -->
             <section id="tab2" class="">
+                <div class="tab2-wrap">
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="img/store_logo.JPG" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/mixfood.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/chickengrill.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/coffeeshake.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/doughnuts.png" alt="">
+                            </div>
+                            ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
 
+                    <div class="menu">
+                        <h3>Ball Donuts</h3>
+                        <ul>
+                            <li>
+                                <img src="img/lemon_sugar.JPG" alt="">
+                                <span>レモンシュガー</span>
+                            </li>
+                            <li>
+                                <img src="img/choco.JPG" alt="">
+                                <span>チョコボール</span>
+                            </li>  
+                            <li>
+                                <img src="img/milkeyball.png" alt="">
+                                <span>ミルキーボール</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <img src="img/honey_cinnamon.JPG" alt="">
+                                <span>ハニーシナモン</span>
+                            </li>
+                            <li>
+                                <img src="img/choco_banana.JPG" alt="">
+                                <span>チョコバナナ</span>
+                            </li>
+                            <li>
+                                <img src="img/tropical.JPG" alt="">
+                                <span>トロピカル</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <h3>Main Dish</h3>
+                        <ul>
+                            <li>
+                                <img src="img/salse.png" alt="">
+                                <span>サルサチキンオーバーライス</span>
+                            </li>
+                            <li>
+                                <img src="img/burg.png" alt="">
+                                <span>ハンバーグプレート</span>
+                            </li>  
+                            <li>
+                                <img src="img/mixsalada.png" alt="">
+                                <span>ミックスチキンサラダ</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <img src="img/wholechicken.png" alt="">
+                                <span>フルサイズチキン</span>
+                            </li>
+                            <li>
+                                <img src="img/special sandwich.png" alt="">
+                                <span>ハーフチキン</span>
+                            </li>
+                            <li>
+                                <img src="img/pan.png" alt="">
+                                <span>キャサディア</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <!-- MENUここまで -->
 
@@ -171,7 +264,25 @@
     </div>
     
     <!-- JSタグ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/enjoy.js"></script>
+    <script type="text/javascript">
+        var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 10,
+        centeredSlides : true,
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        breakpoints: {
+        767: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        }
+        }
+        })
+    </script>
 </body>
 </html>
